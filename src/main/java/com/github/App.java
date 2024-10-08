@@ -24,7 +24,7 @@ public class App
         System.out.println("The result of multiplying " + num1 + " and " + num2 + " is: " + result);
 
         // Adding the numbers using the Calculator class
-        int result = calculator.testing(num1, num2);
+        int result = calculator.sunil(num1, num2);
 
                 // Print the result
         System.out.println("Hello World!");
@@ -75,7 +75,7 @@ class Calculator
      * @param num2 The second number.
      * @return The result of addition num1 and num2.
      */
-    public int testing(int num1, int num2) 
+    public int sunil(int num1, int num2) 
     {
 
         return num1 + num2;

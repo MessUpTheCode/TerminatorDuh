@@ -12,16 +12,9 @@ reviews:
   auto_review:
     enabled: true
     drafts: false
-  function_name_review:
-    enabled: false
-    criteria:
-      - "clarity"
-      - "consistency"
-      - "conventions"
-      - "verbs_only"
   path_instructions:
     - path: "**/*.java"
       instructions: |
-        Review the the function name in the class and function names should be verb.    
+        Review the function name in the class and function names should be verb.    
 chat:
   auto_reply: true

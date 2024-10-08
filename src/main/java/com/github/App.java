@@ -23,6 +23,13 @@ public class App
         System.out.println("Hello World!");
         System.out.println("The result of multiplying " + num1 + " and " + num2 + " is: " + result);
 
+        // Adding the numbers using the Calculator class
+        int result = calculator.testing(num1, num2);
+
+                // Print the result
+        System.out.println("Hello World!");
+        System.out.println("The result of addition " + num1 + " and " + num2 + " is: " + result);
+
         // Unused variable
         int unusedVariable = 10;
 
@@ -60,4 +67,18 @@ class Calculator
     private void unusedMethod() {
         System.out.println("This method is never called");
     }
+
+    /**
+     * Adds two numbers.
+     * 
+     * @param num1 The first number.
+     * @param num2 The second number.
+     * @return The result of addition num1 and num2.
+     */
+    public int testing(int num1, int num2) 
+    {
+
+        return num1 + num2;
+    }
+
 }

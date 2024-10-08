@@ -4,7 +4,7 @@ language: "en-US"
 early_access: false
 reviews:
   profile: "chill"
-  request_changes_workflow: false
+  request_changes_workflow: true
   high_level_summary: true
   poem: true
   review_status: true
@@ -13,11 +13,15 @@ reviews:
     enabled: true
     drafts: false
   function_name_review:
-    enabled: true
+    enabled: false
     criteria:
       - "clarity"
       - "consistency"
       - "conventions"
       - "verbs_only"
+  path_instructions:
+    - path: "**/*.java"
+      instructions: |
+        Review the the function name in the class and function names should be verb.    
 chat:
   auto_reply: true

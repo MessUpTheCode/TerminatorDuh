@@ -1,0 +1,29 @@
+# coderabbit-config.yaml
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: "en-US"
+early_access: false
+reviews:
+  profile: "chill"
+  request_changes_workflow: true
+  high_level_summary: true
+  poem: true
+  review_status: true
+  collapse_walkthrough: false
+  static_analysis:
+  tools:
+    - checkstyle
+    - spotbugs
+    - pmd
+  auto_review:
+    enabled: true
+    drafts: false
+  instructions:
+  - "Check for best practices in exception handling and modular code."
+  - "Ensure static analysis tools catch unused imports, unused variables, and potential bugs."
+  - "Verify code adheres to standard formatting and naming conventions."
+  - "Ensure public methods are documented with Javadoc."
+  - "Verify sufficient null checks to prevent NullPointerExceptions."
+  - "Check that unit tests exist for methods with appropriate test coverage."
+chat:
+  auto_reply: true
+

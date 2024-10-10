@@ -1,5 +1,4 @@
-﻿namespace DefaultNamespace;
-using System.Threading.Tasks;
+namespace YourCompany.YourProject;
 
 
 
